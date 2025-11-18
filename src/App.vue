@@ -1,16 +1,14 @@
 <script setup>
+import NavBar from './components/NavBar.vue'
 </script>
 
-// APP.Vue
 <template>
-  <nav>
-    <RouterLink to="/" class="bg-yellow">Home</RouterLink>
-    <RouterLink to="/about">About</RouterLink>
-  </nav>
+  <header>
+    <NavBar />
+  </header>
   <main>
     <RouterView />
   </main>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
