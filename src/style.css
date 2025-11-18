@@ -1,14 +1,5 @@
 @import 'tailwindcss';
 :root {
-  /*=== COLORS ===*/
-  --yellow: hsl(40, 97%, 58%);
-  --dark-navy: hsl(216, 17%, 35%);
-  --dim-grey: hsl(217, 12%, 62%);
-  --light-grey: hsl(212, 41%, 93%);
-  --snow: hsl(214, 37%, 96%);
-  --light-yellow: hsl(39, 100%, 94%);
-  --white: hsl(0, 0%, 100%);
-  --black: hsl(0, 0%, 0%);
   /*=== SIZES ===*/
   --padding-100: 0.5rem;
   --padding-200: 0.75rem;
@@ -21,6 +12,17 @@
   --padding-900: 2.5rem;
   /*=== MARGINS ===*/
   --mg-container: 2rem;
+}
+
+@theme {
+  --color-yellow: hsl(40, 97%, 58%);
+  --color-dark-navy: hsl(216, 17%, 35%);
+  --color-dim-grey: hsl(217, 12%, 62%);
+  --color-light-grey: hsl(212, 41%, 93%);
+  --color-snow: hsl(214, 37%, 96%);
+  --color-light-yellow: hsl(39, 100%, 94%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
 }
 
 * {
@@ -53,7 +55,7 @@ button {
   background: transparent;
 }
 
-.h1 {
+.css-h1 {
   font-family: 'Space Mono', monospace;
   font-weight: 700;
   font-size: 56px;
@@ -61,7 +63,7 @@ button {
   letter-spacing: -2.5px;
 }
 
-.h2 {
+.css-h2 {
   font-family: 'Space Mono', monospace;
   font-weight: 700;
   font-size: 48px;
@@ -69,7 +71,7 @@ button {
   letter-spacing: -2.14px;
 }
 
-.h3 {
+.css-h3 {
   font-family: 'Space Mono', monospace;
   font-weight: 700;
   font-size: 40px;
@@ -77,7 +79,7 @@ button {
   letter-spacing: -1.79px;
 }
 
-.h4 {
+.css-h4 {
   font-family: 'Space Mono', monospace;
   font-weight: 700;
   font-size: 24px;
@@ -85,7 +87,7 @@ button {
   letter-spacing: -1.07px;
 }
 
-.body {
+.css-body {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   font-size: 15px;
