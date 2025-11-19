@@ -1,8 +1,12 @@
-<script setup></script>
+<script setup>
+import Footer from '../components/Footer.vue'
+import SignUp from '../components/SignUp.vue'
+</script>
 
 <template>
   <section>
-    <h1 class="h1">Careers</h1>
+  <SignUp />
+    <Footer />
   </section>
   <!-- About Location Careers Get Scootin Careers Care to join our mission? We’re always looking for ambitious individuals
     to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve

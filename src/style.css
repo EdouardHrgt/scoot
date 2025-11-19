@@ -9,6 +9,7 @@
   --color-light-yellow: hsl(39, 100%, 94%);
   --color-white: hsl(0, 0%, 100%);
   --color-black: hsl(0, 0%, 0%);
+  --color-very-dark: #333A44;
 }
 
 :root {
@@ -25,6 +26,15 @@
   /*=== MARGINS ===*/
   --mg-container: 2rem;
   --mx-width: 1440px;
+    --color-yellow: hsl(40, 97%, 58%);
+  --color-dark-navy: hsl(216, 17%, 35%);
+  --color-dim-grey: hsl(217, 12%, 62%);
+  --color-light-grey: hsl(212, 41%, 93%);
+  --color-snow: hsl(214, 37%, 96%);
+  --color-light-yellow: hsl(39, 100%, 94%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-very-dark: #333A44;
 }
 
 * {
@@ -68,6 +78,14 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
+}
+
+.css-body-bold {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0;
 }
 
 @media (max-width: 1440px) {

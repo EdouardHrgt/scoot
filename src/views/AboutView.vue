@@ -1,8 +1,12 @@
-<script setup></script>
+<script setup>
+import Footer from '../components/Footer.vue'
+import SignUp from '../components/SignUp.vue'
+</script>
 
 <template>
   <section>
-    <h1 class="h1">About</h1>
+    <SignUp />
+    <Footer />
   </section>
   <!-- About Location Careers Get Scootin About Mobility for the digital era Getting around should be simple (and even
     fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips. Better

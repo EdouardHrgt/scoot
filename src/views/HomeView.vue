@@ -1,8 +1,12 @@
-<script setup></script>
+<script setup>
+import Footer from '../components/Footer.vue'
+import SignUp from '../components/SignUp.vue'
+</script>
 
 <template>
   <section>
-    <h1 class="h1">Home</h1>
+    <SignUp />
+    <Footer />
   </section>
   <!-- About Location Careers Get Scootin Scooter sharing made simple Scoot takes the hassle out of urban mobility. Our
     bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it
