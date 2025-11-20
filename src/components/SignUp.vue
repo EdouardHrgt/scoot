@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <section
-    class="bg-dark-navy flex items-center px-16 max-[900px]:px-6 py-19 max-[900px]:flex-col bg-[url(/images/patterns/white-circles.svg)] bg-no-repeat bg-right bg-size-[auto_300px]"
+    class="bg-dark-navy flex items-center px-24 max-[900px]:px-6 py-19 max-[900px]:flex-col bg-[url(/images/patterns/white-circles.svg)] bg-no-repeat bg-right bg-size-[auto_300px]"
     style="background-position: calc(100% + 150px) calc(100% + 150px)"
   >
     <h2 class="css-h2 text-white max-w-[457px] max-[900px]:text-center">Sign up and Scoot off today</h2>
@@ -20,4 +20,3 @@
   </section>
 </template>
 
-159 56

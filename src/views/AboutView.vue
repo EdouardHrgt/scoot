@@ -1,10 +1,12 @@
 <script setup>
 import Footer from '../components/Footer.vue'
 import SignUp from '../components/SignUp.vue'
+import Hero from '../components/Hero.vue'
 </script>
 
 <template>
   <section>
+    <Hero isOnlyTitle="true" label="About" bg="About"/>
     <SignUp />
     <Footer />
   </section>

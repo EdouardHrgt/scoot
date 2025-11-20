@@ -1,11 +1,13 @@
 <script setup>
 import Footer from '../components/Footer.vue'
 import SignUp from '../components/SignUp.vue'
+import Hero from '../components/Hero.vue'
 </script>
 
 <template>
   <section>
-  <SignUp />
+    <Hero isOnlyTitle="true" label="Careers" />
+    <SignUp />
     <Footer />
   </section>
   <!-- About Location Careers Get Scootin Careers Care to join our mission? We’re always looking for ambitious individuals

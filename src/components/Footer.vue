@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <footer class="flex items-center bg-very-dark px-16 max-[900px]:px-6 py-9 max-[900px]:flex-col max-[900px]:gap-12 max-[900px]:py-16">
+  <footer class="flex items-center bg-very-dark px-24 max-[900px]:px-6 py-9 max-[900px]:flex-col max-[900px]:gap-12 max-[900px]:py-16">
     <router-link to="/" class="h-fit mr-10">
       <svg
         xmlns="http://www.w3.org/2000/svg"

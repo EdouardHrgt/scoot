@@ -7,7 +7,7 @@ const isMenuOpen = ref(false)
 </script>
 
 <template>
-  <header class="flex items-center bg-white mx-auto relative px-16 max-[900px]:px-6 h-32">
+  <header class="flex items-center bg-white mx-auto relative px-24 max-[900px]:px-6 h-32">
     <router-link to="/" class="h-fit mr-10 z-50">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ const isMenuOpen = ref(false)
     <div
       v-if="isMenuOpen"
       @click="isMenuOpen = false"
-      class="fixed min-[901px]:hidden top-32 left-0 right-0 bottom-0 bg-black opacity-80 z-30"
+      class="fixed min-[901px]:hidden top-32 left-0 right-0 bottom-0 bg-black opacity-55 z-30"
     />
   </header>
 </template>

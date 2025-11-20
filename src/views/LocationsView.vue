@@ -1,11 +1,13 @@
 <script setup>
 import Footer from '../components/Footer.vue'
 import SignUp from '../components/SignUp.vue'
+import Hero from '../components/Hero.vue'
 </script>
 
 <template>
   <section>
-  <SignUp />
+    <Hero isOnlyTitle="true" label="Locations" />
+    <SignUp />
     <Footer />
   </section>
   <!-- About Location Careers Get Scootin Locations New York London Yokohama Jakarta Your city not listed? If you’d like to
