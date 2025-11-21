@@ -2,19 +2,17 @@
 import Footer from '../components/Footer.vue'
 import SignUp from '../components/SignUp.vue'
 import Hero from '../components/Hero.vue'
+import Instructions from '../components/Instructions.vue'
 </script>
 
 <template>
   <section>
-  <Hero :isOnlyTitle="false"/> 
+    <Hero :isOnlyTitle="false" />
+    <Instructions />
     <SignUp />
     <Footer />
   </section>
-  <!--Get Scootin Locate with app Use the app to find the nearest scooter to you. We are
-    continuously placing scooters in the areas with most demand, so one should never be too far away. Pick your scooter
-    We show the most important info for the scooters closest to you. So you know how much charge they have left and can
-    see roughly how much it will cost. Enjoy the ride Scan the QR code and the bike will unlock. Retract the cable lock,
-    put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps. Easy to use riding
+  <!-- Easy to use riding
     telemetry The Scoot app is available with riding telemetry. This means it can show you your average speed, how long
     you've been using the scooter, your traveling distance, and many more things all in an easy to use app. Learn More
     Coming to a city near you Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us
