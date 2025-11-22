@@ -2,18 +2,19 @@
 import Footer from '../components/Footer.vue'
 import SignUp from '../components/SignUp.vue'
 import Hero from '../components/Hero.vue'
+import ArticleRight from '../components/ArticleRight.vue'
+import ArticleLeft from '../components/ArticleLeft.vue'
 </script>
 
 <template>
   <section>
-    <Hero isOnlyTitle="true" label="About" bg="About"/>
+    <Hero isOnlyTitle="true" label="About" bg="About" />
+    <ArticleRight :isBtn="true" :index="2" />
+    <ArticleLeft :isBtn="true" :index="1" />
     <SignUp />
     <Footer />
   </section>
-  <!-- About Location Careers Get Scootin About Mobility for the digital era Getting around should be simple (and even
-    fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips. Better
-    urban living We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and
-    we offset the minimal carbon footprint for each ride. Our values 01 Our tech We’re using cutting edge technology to
+  <!--  Our values 01 Our tech We’re using cutting edge technology to
     drive accessible urban transportation forward. Our fully electric scooters are a joy to ride! 02 Our integrity We
     are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every city we serve. 03
     Our community We support every community we serve. All workers are paid a living wage based on their location and

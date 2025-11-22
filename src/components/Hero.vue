@@ -32,10 +32,10 @@ const backgroundStyle = computed(() => {
 </script>
 
 <template>
-  <!-- Big Hero form homepage only -->
+  <!-- Big Hero for homepage only -->
   <section
     v-if="!isOnlyTitle"
-    class="after:pointer-events-none px-24 max-[900px]:px-6 py-50 relative bg-[url(/images/assets/home-hero-desktop.jpg)] bg-no-repeat bg-cover before:content-[''] before:absolute before:inset-0 before:bg-[url('/images/patterns/line.svg')] before:bg-no-repeat before:bg-[left_-75px_top_397px] after:content-[''] after:absolute after:inset-0 after:bg-[url('/images/patterns/r-white-circles.svg')] after:bg-no-repeat after:bg-[right_-35px_top_470px] max-[1024px]:bg-[url(/images/assets/home-hero-tablet.jpg)] max-[1024px]:before:hidden max-[1024px]:py-0 max-[1024px]:pt-36 max-[1024px]:after:bg-[right_-35px_bottom_35px] max-[900px]:after:hidden max-[900px]:bg-[url(/images/assets/home-hero-mobile.jpg)]"
+    class="after:pointer-events-none px-24 max-[900px]:px-6 py-50 relative bg-[url(/images/assets/home-hero-desktop.jpg)] bg-no-repeat bg-cover before:content-[''] before:absolute before:inset-0 before:bg-[url('/images/patterns/line.svg')] before:bg-no-repeat before:bg-[left_-75px_top_397px] after:content-[''] after:absolute after:inset-0 after:bg-[url('/images/patterns/r-white-circles.svg')] after:bg-no-repeat after:bg-[right_-35px_top_470px] max-[1024px]:bg-[url(/images/assets/home-hero-tablet.jpg)] max-[1024px]:before:hidden max-[1024px]:py-0 max-[1024px]:pt-36 max-[1024px]:after:bg-[right_-35px_bottom_35px] max-[900px]:after:hidden max-[900px]:bg-[url(/images/assets/home-hero-mobile.jpg)] max-[1200px]:before:hidden"
   >
     <h1 class="css-h1 text-white max-w-150 max-[1024px]:text-center max-[1024px]:mx-auto mb-10">
       Scooter sharing made simple

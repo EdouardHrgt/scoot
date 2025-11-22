@@ -2,7 +2,9 @@
   <ul
     class="px-24 max-[900px]:px-6 relative py-20 flex max-w-[1500px] justify-between gap-[2rem] max-[1024px]:flex-col"
   >
-    <li class="max-w-[400px] max-[1024px]:flex max-[1024px]:gap-[2rem] max-[1024px]:max-w-full max-[900px]:flex-col max-[900px]:items-center max-[900px]:gap-[5px]">
+    <li
+      class="max-w-[400px] max-[1024px]:flex max-[1024px]:gap-[2rem] max-[1024px]:max-w-full max-[900px]:flex-col max-[900px]:items-center max-[900px]:gap-[5px]"
+    >
       <img src="/images/icons/locate.svg" alt="locate with app" class="max-[1024px]:w-[96px] max-[1024px]:h-[96px]" />
       <div class="list-text max-[1024px]:w-full max-[900px]:text-center max-[900px]:max-w-[380px]">
         <h3 class="css-h4 text-dark-navy my-[18px] max-[900px]:my-[12px]">Locate with app</h3>
@@ -12,7 +14,9 @@
         </p>
       </div>
     </li>
-    <li class="max-w-[400px] max-[1024px]:flex max-[1024px]:gap-[2rem] max-[1024px]:max-w-full max-[900px]:flex-col max-[900px]:items-center max-[900px]:gap-[5px]">
+    <li
+      class="max-w-[400px] max-[1024px]:flex max-[1024px]:gap-[2rem] max-[1024px]:max-w-full max-[900px]:flex-col max-[900px]:items-center max-[900px]:gap-[5px]"
+    >
       <img src="/images/icons/scooter.svg" alt="locate with app" class="max-[1024px]:w-[96px] max-[1024px]:h-[96px]" />
       <div class="list-text max-[1024px]:w-full max-[900px]:text-center max-[900px]:max-w-[380px]">
         <h3 class="css-h4 text-dark-navy my-[18px] max-[900px]:my-[12px]">Pick your scooter</h3>
@@ -22,7 +26,9 @@
         </p>
       </div>
     </li>
-    <li class="max-w-[400px] max-[1024px]:flex max-[1024px]:gap-[2rem] max-[1024px]:max-w-full max-[900px]:flex-col max-[900px]:items-center max-[900px]:gap-[5px]">
+    <li
+      class="max-w-[400px] max-[1024px]:flex max-[1024px]:gap-[2rem] max-[1024px]:max-w-full max-[900px]:flex-col max-[900px]:items-center max-[900px]:gap-[5px]"
+    >
       <div
         class="relative max-w-fit max-[1024px]:w-[96px] max-[1024px]:h-[96px] max-[1024px]:max-w-none max-[1024px]:shrink-0 max-[1024px]:grow-0 max-[1024px]:basis-[96px]"
       >
@@ -41,8 +47,5 @@
       </div>
     </li>
   </ul>
-
-  <!--   
-        max-w-[350px] -->
 </template>
 v

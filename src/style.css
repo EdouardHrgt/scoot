@@ -9,7 +9,7 @@
   --color-light-yellow: hsl(39, 100%, 94%);
   --color-white: hsl(0, 0%, 100%);
   --color-black: hsl(0, 0%, 0%);
-  --color-very-dark: #333A44;
+  --color-very-dark: #333a44;
 }
 
 :root {
@@ -26,7 +26,7 @@
   /*=== MARGINS ===*/
   --mg-container: 2rem;
   --mx-width: 1440px;
-    --color-yellow: hsl(40, 97%, 58%);
+  --color-yellow: hsl(40, 97%, 58%);
   --color-dark-navy: hsl(216, 17%, 35%);
   --color-dim-grey: hsl(217, 12%, 62%);
   --color-light-grey: hsl(212, 41%, 93%);
@@ -34,7 +34,7 @@
   --color-light-yellow: hsl(39, 100%, 94%);
   --color-white: hsl(0, 0%, 100%);
   --color-black: hsl(0, 0%, 0%);
-  --color-very-dark: #333A44;
+  --color-very-dark: #333a44;
 }
 
 * {
@@ -102,4 +102,10 @@
 }
 
 @media (max-width: 800px) {
+  .css-h2 {
+    font-size: 32px;
+  }
+  .css-h1 {
+    font-size: 40px;
+  }
 }
