@@ -15,15 +15,19 @@ const texts = ref([
           for up to a month.`,
     icon: '/images/assets/payments.jpg',
   },
-   {
-    label: 'Mobility for the digital era ',
+  {
+    label: 'Mobility for the digital era',
     txt: `Getting around should be simple (and even
           fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips.`,
     icon: '/images/assets/digital-era.jpg',
   },
+  {
+    label: 'Care to join our mission?',
+    txt: `We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to 
+          provide clean, accessible transport to improve urban living we want to hear from you!`,
+    icon: '/images/assets/join-us.jpg',
+  },
 ])
-
-
 
 const props = defineProps({
   isBtn: Boolean,
@@ -34,14 +38,13 @@ const injector = computed(() => {
   const i = parseInt(props.index)
   return texts.value[i]
 })
-
 </script>
 
 <template>
   <article
     class="max-[800px]:py-3 overflow-x-hidden px-24 max-[900px]:px-6 relative py-20 grid grid-cols-2 gap-[3rem] max-[1024px]:grid-cols-1 bg-[url(/images/patterns/circle.svg)] bg-no-repeat bg-[right_-325px_center] max-[1024px]:bg-[right_-325px_top_4.5rem] bg-size-[445px] max-[900px]:bg-none"
   >
-    <div class="max-[1024px]:order-2 w-full">
+    <div class="max-[1024px]:order-2 w-ful pt-[3rem]">
       <h2 class="css-h2 text-dark-navy max-[1024px]:text-center">{{ injector.label }}</h2>
       <p class="css-body text-dim-grey my-[2rem] max-[1024px]:text-center">{{ injector.txt }}</p>
       <Button class="max-[1024px]:mx-auto max-[1024px]:block" label="Learn More" v-if="isBtn" type="transparent" />

@@ -7,7 +7,7 @@ defineProps({
 <template>
   <button
     :class="[
-      'bg-yellow cursor-pointer ease-in duration-200 filter hover:outline-2',
+      'bg-yellow cursor-pointer ease-in duration-200 filter hover:outline-2 min-w-fit',
       type !== 'transparent' && 'hover:bg-white hover:outline-yellow',
       type === 'transparent' && 'hover:bg-transparent hover:drop-shadow-none hover:outline-yellow',
     ]"

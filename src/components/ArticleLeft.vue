@@ -39,7 +39,7 @@ const injector = computed(() => {
         class="object-cover aspect-square block rounded-full w-full max-w-[445px] max-[900px]:max-w-[310px]"
       />
     </div>
-    <div class="max-[1024px]:order-2 w-full">
+    <div class="max-[1024px]:order-2 w-full pt-[3rem]">
       <h2 class="css-h2 text-dark-navy max-[1024px]:text-center">{{ injector.label }}</h2>
       <p class="css-body text-dim-grey my-[2rem] max-[1024px]:text-center">{{ injector.text }}</p>
       <Button class="max-[1024px]:mx-auto max-[1024px]:block" label="Learn More" v-if="isBtn" type="transparent" />

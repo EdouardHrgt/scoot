@@ -4,13 +4,15 @@ import SignUp from '../components/SignUp.vue'
 import Hero from '../components/Hero.vue'
 import ArticleRight from '../components/ArticleRight.vue'
 import ArticleLeft from '../components/ArticleLeft.vue'
+import BubbleList from '../components/BubbleList.vue'
 </script>
 
 <template>
   <section>
-    <Hero isOnlyTitle="true" label="About" bg="About" />
+    <Hero :isOnlyTitle="true" label="About" bg="About" />
     <ArticleRight :isBtn="true" :index="2" />
     <ArticleLeft :isBtn="true" :index="1" />
+    <BubbleList title="Our Values"/>
     <SignUp />
     <Footer />
   </section>
