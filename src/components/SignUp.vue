@@ -1,4 +1,4 @@
-<script setup></script>
+
 <template>
   <section
     class="bg-dark-navy flex items-center px-24 max-[900px]:px-6 py-19 max-[900px]:flex-col bg-[url(/images/patterns/white-circles.svg)] bg-no-repeat bg-right bg-size-[auto_300px]"

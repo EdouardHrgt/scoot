@@ -55,7 +55,7 @@ const backgroundStyle = computed(() => {
   <section
     v-if="isOnlyTitle"
     :style="backgroundStyle"
-    class="px-24 max-[900px]:px-6 py-18 relative bg-[image:var(--bg-mobile)] md:bg-[image:var(--bg-tablet)] lg:bg-[image:var(--bg-pc)] bg-cover bg-center after:content-[''] after:absolute after:bg-[url('/images/patterns/r-white-circles.svg')] after:bg-no-repeat after:bg-[right_-30px_top_50%] after:inset-0 max-[900px]:after:hidden"
+    class="px-24 max-[900px]:px-6 py-20 relative bg-[image:var(--bg-mobile)] md:bg-[image:var(--bg-tablet)] lg:bg-[image:var(--bg-pc)] bg-cover bg-center after:content-[''] after:absolute after:bg-[url('/images/patterns/r-white-circles.svg')] after:bg-no-repeat after:bg-[right_-30px_top_50%] after:inset-0 max-[900px]:after:hidden"
   >
     <h1 class="css-h1 text-white max-[900px]:text-center max-[900px]:mx-auto">
       {{ props.label || 'Label Missing...' }}
