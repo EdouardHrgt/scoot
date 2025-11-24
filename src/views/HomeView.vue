@@ -14,6 +14,7 @@ import ArticleLeft from '../components/ArticleLeft.vue'
     <ArticleRight :isBtn="true" :index="0"/>
     <ArticleLeft :isBtn="true" :index="0"/>
     <ArticleRight :isBtn="true" :index="1"/>
+    <span class="block max-[900px]:py-[2rem]"></span>
     <SignUp />
     <Footer />
   </section>

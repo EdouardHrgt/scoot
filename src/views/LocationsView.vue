@@ -24,5 +24,3 @@ import WolrdMap from '../components/WolrdMap.vue'
     <Footer />
   </section>
 </template>
-
-<style scoped></style>

@@ -5,34 +5,20 @@ import Hero from '../components/Hero.vue'
 import ArticleRight from '../components/ArticleRight.vue'
 import ArticleLeft from '../components/ArticleLeft.vue'
 import BubbleList from '../components/BubbleList.vue'
+import Faqs from '../components/Faqs.vue'
 </script>
 
 <template>
   <section>
     <Hero :isOnlyTitle="true" label="About" bg="About" />
+    <span class="block max-[1024px]:py-[2rem]"></span>
     <ArticleRight :isBtn="true" :index="2" />
     <ArticleLeft :isBtn="true" :index="1" />
-    <BubbleList title="Our Values"/>
+    <BubbleList title="Our Values" />
+    <Faqs />
     <SignUp />
     <Footer />
   </section>
-  <!--  Our values 01 Our tech We’re using cutting edge technology to
-    drive accessible urban transportation forward. Our fully electric scooters are a joy to ride! 02 Our integrity We
-    are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every city we serve. 03
-    Our community We support every community we serve. All workers are paid a living wage based on their location and
-    are Scoot employees. FAQs How it works How do I download the app? To download the Scoot app, you can search “Scoot”
-    in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the
-    bottom of this page and you’ll be re-directed to the correct page. Can I find a nearby Scoots? Definitely! Simply
-    open up the app and allow us to find your location while using it. We'll show you all of the closest Scoots and some
-    extra useful information. Do I need a license to ride? Yup! We provide information inside the app regarding local
-    laws and the license you need to be able to ride our Scoots. Safe driving Should I wear a helmet? Yes, please do!
-    All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of
-    the local laws. We like you and we want you to be as safe as possible while Scooting. How about the rules &
-    regulations? Now is not the time to be a rule breaker. Be sure you're complying with all local laws and regulations.
-    Also, just be a good human being. Be sure not to park your Scoot where it can block access to buildings or get in
-    people's way. What if I damage my Scoot? Be sure to read our terms and conditions carefully. Not the most fun job we
-    know but we make it as clear as possible. There's an option to add insurance for each trip, or you can sign up for
-    annual insurance if you're a regular Scooter. Sign up and Scoot off today About Location Careers -->
 </template>
 
 <style scoped></style>
